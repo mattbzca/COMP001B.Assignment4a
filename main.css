@@ -1,5 +1,9 @@
 header {
-
+    background-color: rgb(219,0,7);
+}
+header img {
+    height: 4em;
+    padding-top: 1em;
 }
 nav ul li {
     list-style-type: none;
@@ -9,4 +13,12 @@ main {
 }
 footer {
     clear: both;
+}
+body {
+    margin: 0;
+    font-family: 'Speedee', sans-serif;
+}
+@font-face {
+    font-family: 'Speedee';
+    src: url('fonts/Speedee-Regular.otf') format('opentype'), url('fonts/Speedee-Bold.ttf') format('truetype');
 }
