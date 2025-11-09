@@ -6,3 +6,7 @@ https://www.mcdonalds.cz/static/files/logo/mcdonalds_logomanual.pdf
 https://corporate.mcdonalds.com/corpmcd/our-stories/media-assets-library.html
 
 https://www.mcdonalds.com/us/en-us.html
+
+The mock-up styling will be different from McDonald's current website, but will synthesize the public styling page guide with some features from McDonald's current format with their food menu.
+
+For example, the fonts used would be the Speedee fonts, which are the universal fonts for all McDonald's pages. It also makes suggestions to use the arch logo only with the color schemes.  

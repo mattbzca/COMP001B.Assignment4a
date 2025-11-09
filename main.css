@@ -25,17 +25,21 @@ h3 {
     right: 790px;
 }
 p {
-    font-size: 1.5em;
-    top: 15em;
+    font-size: 1.3em;
+    top: 17em;
     position: absolute;
     right: 490px;
     width: 20%;
 }
 button {
-    font-size: 1.2em;
+    font-size: 1.1em;
     background-color: rgb(255,188,13);
-    border: 2px solid rgb(219,0,7);
-    padding: 0.2em 0.5em 0.2em 0.5em;
+    border: none;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    border-radius: 5px;
+    position: absolute;
+    top: 145px;
+    right: 95px;
 }
 header img {
     height: 4em;
@@ -73,12 +77,25 @@ main {
     padding-left: 20em;
     padding-top: 10em;
 }
+.location {
+    width: 20px;
+    position: absolute;
+    top: 109px;
+    right: 400px;
+}
+.loc {
+    font-size: 1.1em;
+    position: absolute;
+    top: 90px;
+    right: 9px;
+    text-decoration: underline;
+}
 footer {
     clear: both;
     background-color: rgb(219,0,7);
     overflow: auto;
     font-size: 0.8em;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     color: white;
