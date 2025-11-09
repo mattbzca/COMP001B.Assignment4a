@@ -1,18 +1,87 @@
 header {
     background-color: rgb(219,0,7);
 }
+h1 {
+    margin: 0;
+    padding-bottom: 0.2em;
+    padding-left: 2.5em;
+    color: black;
+    background-color: rgb(255,188,13);
+    border-bottom: 2px solid rgba(201, 196, 196, 0.5);
+    text-align: center;
+    font-size: 1.5em;
+}
+h2 {
+    color: rgb(219,0,7);
+    font-size: 4.5em;
+    position: absolute;
+    top: 2.5em;
+    right: 5.9em;
+}
+h3 {
+    font-size: 1.5em;
+    position: absolute;
+    top: 13em;
+    right: 790px;
+}
+p {
+    font-size: 1.5em;
+    top: 15em;
+    position: absolute;
+    right: 490px;
+    width: 20%;
+}
+button {
+    font-size: 1.2em;
+    background-color: rgb(255,188,13);
+    border: 2px solid rgb(219,0,7);
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
 header img {
     height: 4em;
     padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
 }
 nav ul li {
     list-style-type: none;
+    float: left;
+    margin-right: 11em;
 }
-main {
+nav ul li a {
+    text-decoration-line: none;
+    font-size: 1.1em;
+}
+nav {
+    background-color: rgb(247, 235, 205);
+    overflow: auto;
+    padding-bottom: 1em;
+    box-shadow: 0 3px 2px -2px gray;
+}
+nav a:hover {
+    color: rgb(219,0,7);
+}
 
+main {
+    float: left;
+    width: 25%;
+    padding-left: 20em;
+}
+.rib {
+    width: 35%;
+    float: left;
+    padding-left: 20em;
+    padding-top: 10em;
 }
 footer {
     clear: both;
+    background-color: rgb(219,0,7);
+    overflow: auto;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
 }
 body {
     margin: 0;
